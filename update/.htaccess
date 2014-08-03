@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Protected Area"
-AuthUserFile /home/deuxlpoucf/www/update/.htpasswd
-Require valid-user
