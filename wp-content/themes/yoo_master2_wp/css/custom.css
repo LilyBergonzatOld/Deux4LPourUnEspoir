@@ -1,0 +1,84 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+html { 
+    height: 100%;
+}
+
+body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+    background: url('/wp-content/uploads/yootheme/blank.gif') #ffffff fixed;
+
+    transition: background 1s ease;
+    -moz-transition: background 1s ease;
+    -webkit-transition: background 1s ease;
+    -o-transition: background 1s ease;
+    -ms-transition: background 1s ease;
+}
+
+#map-canvas { 
+    height: 500px;
+}
+
+.uk-container-center {
+    background: rgba(40, 40, 40, 0.7);
+}
+
+body, p, h1, h2, h3, h4, h5, h6, .uk-panel-box-secondary .uk-panel-title, .uk-article-lead, .uk-panel-box {
+    color: #DEDEDE;
+}
+
+ul:not[class] {
+    text-align: left;
+}
+
+.uk-panel-box {
+    background: #282828;
+}
+
+.floatleft {
+	float: left;
+}
+
+.team strong {
+	display: inline-block;
+	width: 70px;
+}
+
+.teamavatar {
+	width: 102px;
+	margin-right: 5px;
+}
+
+.clearfix:after {
+	content: '';
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
+.wpcf7-form-control-wrap, .wpcf7-form-control-wrap * {
+	width: 70%;
+	display: inline-block;
+	color: black;
+}
+
+.wpcf7-submit {
+	color: black;
+	width: 150px;
+	height: 30px;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.uk-article {
+    background: #333;
+    padding: 20px;
+}
